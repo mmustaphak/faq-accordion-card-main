@@ -1,0 +1,68 @@
+body{
+    height: 100vh;
+    background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%)) ;
+    display: flex;
+    font-family: 'Kumbh Sans', sans-serif;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.hero{
+    background-image:url(images/bg-pattern-desktop.svg);
+    background-color: white;
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    border-radius: 15px;
+}
+div img{
+    max-width: 50%;
+    height: 50vh;
+    align-self: center;
+}
+.hero{
+    width: 70%;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    height: 10vh;
+    margin-right: 50px;
+}
+hr{
+    color: hsl(240, 5%, 91%);
+    width: 115%;
+}
+
+.hero .content div div{
+    display: flex;
+    justify-content: space-between;
+}
+.hero .content h3{
+    font-size: 30px;
+    margin:15px 0px 30px 0px;
+}
+
+.hero div div img{
+    width: 8px;
+    height: 8px;
+}
+.attribution{ 
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a{ 
+    color: hsl(228, 45%, 44%); 
+}
+.sub-title{
+    width: 110%;
+}
+.flip{
+    transform: rotate(180deg);
+}
+.hero .content div div p:hover{
+    color: hsl(14, 88%, 65%);
+    cursor: pointer;
+}
