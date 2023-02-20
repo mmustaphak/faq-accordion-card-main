@@ -21,6 +21,7 @@ div img{
     max-width: 50%;
     height: 50vh;
     align-self: center;
+    margin-left: -30px;
 }
 .hero{
     width: 70%;
@@ -28,8 +29,10 @@ div img{
 .content{
     display: flex;
     flex-direction: column;
-    height: 10vh;
-    margin-right: 50px;
+    height: 10%;
+    width: 35%;
+    margin-top: 30px;
+    margin-right: 70px;
 }
 hr{
     color: hsl(240, 5%, 91%);
@@ -53,6 +56,9 @@ hr{
     font-size: 11px;
     text-align: center;
 }
+.hero .content div div p{
+    font-size: 12px;
+}
 .attribution a{ 
     color: hsl(228, 45%, 44%); 
 }
@@ -65,4 +71,17 @@ hr{
 .hero .content div div p:hover{
     color: hsl(14, 88%, 65%);
     cursor: pointer;
+}
+.hero .content div ul{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    font-size: 12px;
+}
+.arrow-3{
+    margin-right: -30px;
 }
