@@ -11,7 +11,6 @@ const ulEl4 = document.getElementById("ul-el4")
 const ulEl5 = document.getElementById("ul-el5")
 
 
-console.log(arrow5)
 let click1 = true
 arrow1.addEventListener("click",function(){
     arrow1.classList.toggle("flip")
